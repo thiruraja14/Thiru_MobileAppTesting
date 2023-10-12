@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-12T21:12:43 IST" name="Default suite" finished-at="2023-10-12T21:16:19 IST" duration-ms="216831">
+  <suite started-at="2023-10-12T22:19:00 IST" name="Default suite" finished-at="2023-10-12T22:19:14 IST" duration-ms="13439">
     <groups>
     </groups>
-    <test started-at="2023-10-12T21:12:43 IST" name="Default test" finished-at="2023-10-12T21:16:19 IST" duration-ms="216831">
+    <test started-at="2023-10-12T22:19:00 IST" name="Default test" finished-at="2023-10-12T22:19:14 IST" duration-ms="13439">
       <class name="App.Test.AppVali.TestPixel2">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T21:12:43 IST" name="configureAppium" finished-at="2023-10-12T21:12:54 IST" duration-ms="11662" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T22:19:00 IST" name="configureAppium" finished-at="2023-10-12T22:19:08 IST" duration-ms="7994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="scrollToEnd()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T21:12:54 IST" name="scrollToEnd" finished-at="2023-10-12T21:12:56 IST" duration-ms="1406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scrollToEnd -->
-        <test-method signature="test_layout_animations_option_list()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T21:12:56 IST" name="test_layout_animations_option_list" finished-at="2023-10-12T21:12:59 IST" duration-ms="3140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_layout_animations_option_list -->
-        <test-method signature="test_os_option()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T21:12:59 IST" name="test_os_option" finished-at="2023-10-12T21:16:19 IST" duration-ms="200036" status="PASS">
+        <test-method signature="test_os_option()[pri:1, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T22:19:08 IST" name="test_os_option" finished-at="2023-10-12T22:19:09 IST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_os_option -->
-        <test-method is-config="true" signature="CloseConnections()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T21:16:19 IST" name="CloseConnections" finished-at="2023-10-12T21:16:19 IST" duration-ms="544" status="PASS">
+        <test-method signature="test_layout_animations_option_list()[pri:2, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T22:19:09 IST" name="test_layout_animations_option_list" finished-at="2023-10-12T22:19:12 IST" duration-ms="2827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_layout_animations_option_list -->
+        <test-method signature="scrollToEnd()[pri:3, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T22:19:12 IST" name="scrollToEnd" finished-at="2023-10-12T22:19:13 IST" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToEnd -->
+        <test-method is-config="true" signature="CloseConnections()[pri:0, instance:App.Test.AppVali.TestPixel2@7c729a55]" started-at="2023-10-12T22:19:13 IST" name="CloseConnections" finished-at="2023-10-12T22:19:14 IST" duration-ms="536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseConnections -->

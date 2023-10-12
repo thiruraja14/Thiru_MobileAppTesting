@@ -83,7 +83,7 @@ public class TestPixel2 {
 //         driver.pressKey(keyEvent);
 //         // Add cleanup or resource release code here
 //     }
-     @Test
+     @Test(priority = 3)
      public void scrollToEnd() {
     	 boolean canScrollMore;
  		do {
@@ -95,7 +95,7 @@ public class TestPixel2 {
  		
  		} while(canScrollMore);
      }
-     @Test
+     @Test(priority = 1)
      public void test_os_option( ) { 
     	 List<WebElement> myElements = driver.findElements(AppiumBy.accessibilityId("OS"));
     	 for(WebElement e : myElements) {
@@ -104,7 +104,7 @@ public class TestPixel2 {
     	 }
     			 
      }
-     @Test
+     @Test(priority =2 )
      public void test_layout_animations_option_list( ) {
     	 driver.findElement(AppiumBy.accessibilityId("Animation")).click();  
     	 driver.findElement(AppiumBy.accessibilityId("Layout Animations")).click();
