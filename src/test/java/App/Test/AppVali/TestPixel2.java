@@ -96,7 +96,7 @@ public class TestPixel2 {
  		} while(canScrollMore);
      }
      @Test
-     public void test_aos_option( ) {
+     public void test_os_option( ) {
 //    	 driver.findElement(AppiumBy.accessibilityId("Animation")).click();    
     	 List<WebElement> myElements = driver.findElements(AppiumBy.accessibilityId("OS"));
     	 for(WebElement e : myElements) {
