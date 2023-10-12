@@ -74,15 +74,15 @@ public class TestPixel2 {
      {
     	 driver.quit();
      }
-     @AfterMethod
-     public void teardown() {
-         // This method will run after each test method
-         // Simulate pressing the "Home" button
-         KeyEvent keyEvent = new KeyEvent();
-         keyEvent.withKey(AndroidKey.HOME);
-         driver.pressKey(keyEvent);
-         // Add cleanup or resource release code here
-     }
+//     @AfterMethod
+//     public void teardown() {
+//         // This method will run after each test method
+//         // Simulate pressing the "Home" button
+//         KeyEvent keyEvent = new KeyEvent();
+//         keyEvent.withKey(AndroidKey.HOME);
+//         driver.pressKey(keyEvent);
+//         // Add cleanup or resource release code here
+//     }
      @Test
      public void scrollToEnd() {
     	 boolean canScrollMore;
@@ -96,8 +96,7 @@ public class TestPixel2 {
  		} while(canScrollMore);
      }
      @Test
-     public void test_os_option( ) {
-//    	 driver.findElement(AppiumBy.accessibilityId("Animation")).click();    
+     public void test_os_option( ) { 
     	 List<WebElement> myElements = driver.findElements(AppiumBy.accessibilityId("OS"));
     	 for(WebElement e : myElements) {
     	   Assert.assertEquals(e.getText(),"OS","Failed to find OS element");
@@ -117,7 +116,6 @@ public class TestPixel2 {
     	   actual_layout_animation_list.add(e.getText());
     	 }
     	 Assert.assertEquals(actual_layout_animation_list,expected_layout_animation_list);
-    	 driver.quit();
     			 
      }
      

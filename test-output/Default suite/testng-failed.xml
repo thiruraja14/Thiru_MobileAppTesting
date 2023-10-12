@@ -5,8 +5,9 @@
     <classes>
       <class name="App.Test.AppVali.TestPixel2">
         <methods>
-          <include name="test_aos_option"/>
+          <include name="CloseConnections"/>
           <include name="test_layout_animations_option_list"/>
+          <include name="teardown"/>
           <include name="configureAppium"/>
         </methods>
       </class> <!-- App.Test.AppVali.TestPixel2 -->
