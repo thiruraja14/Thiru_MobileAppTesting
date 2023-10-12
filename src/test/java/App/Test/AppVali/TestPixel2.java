@@ -52,7 +52,7 @@ public class TestPixel2 {
 		// create capabilities
 		UiAutomator2Options options=new UiAutomator2Options();
 		options.setDeviceName("pixel_7");
-//		options.setPlatformName("Android");
+		options.setPlatformName("Android");
 //		options.setCapability("platformVersion","13.0");
 		//options.setAutomationName("UiAutomator2");
 		
